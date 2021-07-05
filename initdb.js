@@ -48,7 +48,7 @@ const fillUsers = (db, callback) => {
           const stmt = db.prepare(insertUser);
           for (const user of users) {
             stmt.run(user.id, user.first_name, user.last_name,
-                     user.email, user.gender, user.ip_address);
+                     user.email, user.fender, user.ip_address);
           }
           stmt.finalize(callback);
         });
