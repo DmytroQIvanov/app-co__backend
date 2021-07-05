@@ -21,7 +21,7 @@ app.use(cors())
 initdb.createTables(db, () => {
   initdb.fillTables(db, () => {
  
-app.listen(process.env.PORT ||3002,'localhost',()=>{console.log('server has been started')});
+app.listen(process.env.PORT || 3002,'localhost',()=>{console.log('server has been started '+process.env.PORT + 3002)});
    
 
 
