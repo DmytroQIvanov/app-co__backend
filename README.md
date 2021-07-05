@@ -28,9 +28,6 @@ Returns user
     "total_clicks": 13849
 }
 
-### /user-data
-
-
 ### /users 
 (?page=1 default 1)
 (?limit=20 default 20)
